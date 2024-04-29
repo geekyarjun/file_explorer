@@ -1,0 +1,21 @@
+.contextMenuItemsContainer {
+  padding: 0;
+  opacity: 0;
+  min-width: 120px;
+  position: absolute;
+  display: inline-block;
+  list-style-type: none;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px !important;
+}
+
+.contextMenuItem {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.contextMenuItem:hover {
+  background-color: #fafafa;
+}

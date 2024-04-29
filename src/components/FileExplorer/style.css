@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 0;
+  list-style: none;
+}
+
+.treeContainer {
+  padding-left: 25px;
+}
+
+.treeViewItem > div {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.treeViewItem__icon {
+  width: 20px;
+  height: 20px;
+}
